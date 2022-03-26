@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body,html{
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.icon-label{
+    max-width: 125px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+
+}
+.card-text{
+    font-size: 15px;
+   
+}
+.icon-cart{
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+
+@media (max-width:768px){
+    .icon{
+        display: flex;
+        align-items: center;
+        padding: 1vh;
+
+    }
+    .icon-label{
+        max-width: 100vw;
+        margin-left: 2vw;
+        font-size: 15px;
+    }
+    .nav-div{
+        display: block !important;
+       
+    }   
+    .icon img{
+        width: 8%;
+    }
+   
+    .nav{
+
+        justify-content:left !important ;
+    }
+
+   
+
+}
+@media (min-width:992px){
+.card-img-overlay{
+   max-width:30%;
+   top: 40%;
+   left: 5%;
+   
+   
+}
+}
+@media (max-width:992px){
+    .card-img-overlay{
+        position: relative;
+        text-align: center;
+         background: #e6e6e6;
+         height: 30vh;
+         align-items: center;
+         padding-top: 7vh;
+
+    }
+    .navbar-brand{
+        margin: 0 auto;
+        width: 10%;
+    }
+    .iconToggler{
+        position: absolute;
+        top: 1%;
+        left: 1%;
+    }
+    .navbar-collapse{
+    top: 100%;
+    z-index: 7;
+    position: absolute;
+    background-color: white;
+    width: inherit;
+    left: 0px;
+    padding: 10px;
+}
+.btn-toggler{
+    position: absolute;
+   
+    left: 1%;
+    border: 0;
+}
+.icon-search{
+    position: absolute;
+    left: 15%;
+}
+.icon-cart{
+    margin-right: 1rem;
+
+}
+   
+}
+.card-img-overlay .card-text{
+    font-size: 1rem;
+}
+.footer-list li{
+    padding: 8px 0;
+    font-size: 10px;
+}
+.footer-list li h6{
+    font-size: 15px;
+    color: #616161;
+    font-weight: bolder;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: gray;
+}
+footer{
+    background: #f2f2f2;
+    padding-top: 3vh;
+    
+}
+.nav a{
+    color: #616161;
+}

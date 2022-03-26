@@ -1,0 +1,40 @@
+body,html{
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+.container-div{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(219,228,235,1) 0%, rgba(225,220,219,1) 49%, rgba(215,227,215,1) 100%);
+}
+
+.login-screen{
+    width: 50vh;
+    height: 35vh;
+    box-shadow: 1px 1px 7px gray;
+    background: white;
+
+    padding: 2vw;
+}
+
+.login-form input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid;
+}
+input:focus{
+    outline: none;
+}
+.login-form p{
+    font-size: 11px;
+}
+.form-body{
+    box-shadow: 1px 1px  5px gray;
+}
+.option-div:hover{
+    background-color: #e6e6e6 !important;
+}
